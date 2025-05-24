@@ -16,25 +16,46 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 
+
 <body>
 
+
     <main class="m-2">
-        <div class="img-player">
-            <img class="w-100" src="assets/img/player.jpg" alt="Joueur avec une chaussure de football dans les mains">
-            <h1 class="mx-auto border w-50 text-center"><b>Football</b></h1>
-            <div class="border border-2 mx-auto w-50 text-center text-primary rounded-pill p2-2">
+
+        <!-- version mobile player -->
+        <div class="img-player-mobile d-xxl-none d-xl-none d-md-none d-sm-none position-relative">
+            <img class="w-100" src="assets/img/player - mobile.jpg"
+                alt="Joueur avec une chaussure de football dans les mains">
+            <h1 class="mx-auto w-50 text-center">
+                <b>Football</b>
+            </h1>
+            <a class="btn-collection mx-auto w-50 text-center text-primary rounded-pill p-2" href="#">
                 <b>Voir toute la collection</b>
-            </div>
+            </a>
         </div>
+
+
+        <!-- version desktop player -->
+        <div class="img-player position-relative d-none d-md-flex">
+            <img class="w-100" src="assets/img/player.jpg" alt="Joueur avec une chaussure de football dans les mains">
+            <h1 class="mx-auto border w-50 text-center">
+                <b>Football</b>
+            </h1>
+            <a class="btn-collection mx-auto w-50 text-center text-primary rounded-pill p-2" href="#">
+                <b>Voir toute la collection</b>
+            </a>
+        </div>
+
+
 
         <div class="d-flex">
 
             <!-- card 1 -->
-            <div class="card" style="width: 18rem;">
+            <div class="card rounded-0" style="width: 18rem;">
                 <div class="border border-3 border-danger text-danger fw-bold w-75 text-center m-2">PRIX
                     INTERSPORT
                 </div>
-                <img src="assets/img/red_shoes.png" class="card-img-top my-3" alt="Chaussures de football rouges">
+                <img src="assets/img/red_shoes.png" class="card-img-top my-2" alt="Chaussures de football rouges">
                 <div class="card-body">
                     <h5 class="card-title"><b>ADIDAS</b> Chaussures de football moulées enfant</h5>
                     <div class="avis mb-4"><i class="bi bi-circle-fill"></i> <i class="bi bi-circle-fill"></i> <i
@@ -46,8 +67,8 @@
             </div>
 
             <!-- card 2 -->
-            <div class="card" style="width: 18rem;">
-                <img src="assets/img/t_shirt.png" class="card-img-top mt-5 mb-3" alt="Maillot Algérie">
+            <div class="card rounded-0" style="width: 18rem;">
+                <img src="assets/img/t_shirt.png" class="card-img-top mt-5 mb-2" alt="Maillot Algérie">
                 <div class="card-body">
                     <h5 class="card-title"><b>ADIDAS</b> Maillot de football homme Algérie</h5>
                     <div class="avis mb-4"><i class="bi bi-circle-fill"></i> <i class="bi bi-circle-fill"></i> <i
@@ -63,11 +84,11 @@
         <div class="d-flex mb-4">
 
             <!-- card 3 -->
-            <div class="card" style="width: 18rem;">
+            <div class="card rounded-0" style="width: 18rem;">
                 <div class="border border-3 border-danger text-danger fw-bold w-75 text-center m-2">PRIX
                     INTERSPORT
                 </div>
-                <img src="assets/img/black_shoes.png" class="card-img-top my-3" alt="Chaussures de football noires">
+                <img src="assets/img/black_shoes.png" class="card-img-top my-2" alt="Chaussures de football noires">
                 <div class="card-body">
                     <h5 class="card-title"><b>ADIDAS</b> Chaussures de football moulées</h5>
                     <div class="avis mb-4"><i class="bi bi-circle-fill"></i> <i class="bi bi-circle-fill"></i> <i
@@ -79,8 +100,8 @@
             </div>
 
             <!-- card 4 -->
-            <div class="card" style="width: 18rem;">
-                <img src="assets/img/white_shoes.png" class="card-img-top mt-5 mb-3"
+            <div class="card rounded-0" style="width: 18rem;">
+                <img src="assets/img/white_shoes.png" class="card-img-top mt-5 mb-2"
                     alt="Chaussures de football moulées enfant blanches">
                 <div class="card-body">
                     <h5 class="card-title"><b>ADIDAS</b> Chaussures de football moulées enfant</h5>

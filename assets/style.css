@@ -17,6 +17,33 @@ body i {
 
 .card .card-title {
   font-size: 1.2em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translateY(1em);
+  color: white;
+  padding: 12px 24px;
+}
+
+@media (max-width: 414px) {
+  .btn-collection {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translateY(6.5em);
+    color: white;
+    padding: 12px 24px;
+    background-color: white;
+    text-decoration: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
