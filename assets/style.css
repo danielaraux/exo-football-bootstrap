@@ -5,63 +5,62 @@ body {
 body i {
   font-size: 0.8em;
 }
-
-.img-player {
-  width: 50%;
-}
 @media (max-width: 414px) {
-  .img-player {
-    width: 100%;
+  body {
+    margin: 1em;
   }
 }
 
-.card .card-title {
-  font-size: 1.2em;
+.card-title {
+  font-size: 1.5em;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-
-h1 {
-  position: absolute;
-  top: 50%;
-  left: 25%;
-  transform: translateY(1.5em);
-  color: white;
-}
-
-@media (max-width: 414px) {
-  .btn-collection-mobile {
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    transform: translateY(6.5em);
-    color: white;
-    background-color: white;
-    text-decoration: none;
+@media (max-width: 415px) {
+  .card-title {
+    font-size: 1em;
   }
 }
 
-.btn-collection {
-  position: absolute;
-  top: 50%;
-  left: 32%;
-  transform: translateY(26rem);
-  color: white;
-  background-color: white;
-  text-decoration: none;
-  font-size: 1.5em;
+.player {
+  background-image: url(/assets/img/player\ -\ mobile.jpg);
+  background-size: cover;
+  height: 30vh;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+@media (min-width: 415px) {
+  .player {
+    background-image: url("/assets/img/player.jpg");
+    background-size: cover;
+    border: 1px solid black;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 2rem;
+  }
 }
 
-.img-player > h1 {
-  position: absolute;
-  top: 50%;
-  left: 25%;
-  transform: translateY(3.9em);
+.player h1 {
   color: white;
-  font-size: 6em;
+}
+@media (min-width: 415px) {
+  .player h1 {
+    font-size: 5rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 415px) {
+  .badge {
+    font-size: 0.6em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
